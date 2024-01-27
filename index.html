@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Image Click Change</title>
+    <!-- <meta charset="utf-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <title>Bootstrap demo</title> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+ 
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+      <div class="navdiv">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <img id="logosg" src="logo2.jpg" alt="notavail" srcset="">
+          </li>
+          <li class="nav-item">
+            <h3 id="sivag">shivaGym Fitness Center</h3>
+          </li>
+      </div>
+     
+     <i class="fa-solid fa-dumbbell fa-flip fa-2xl" id="logo" ></i>
+    <div class="navdiv" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <button type="button" class="btn btn-outline-info" id="gohome">Home</button>
+      </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-info" id="gocontact">contactus</button
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-outline-info" id="goreg">Registration</button>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="fistview">
+<h1>  welcomne to shiva gym online portal</h1>
+</div>
+ <div id="contactid">
+  <h3>Name-> shiva gym</h3>
+  <h3> Mobile No-> 7221997122</h3>
+  <h3>email -> shiva@gmail.com</h3>
+  <h4><ADdress> nagar palika phalodi </ADdress></h4>
+ </div>
+ <div class="regcontainer" id="reg-id">
+   <label > NAME</label> <input type="text" id="Namebox"> 
+   <label > Gender</label> <select name="" id="Gen-box">
+     <option value="">MALE</option>
+     <option value="">Female</option>
+   </select>
+ <label> Age</label> <input type="number" name="" id="Agebox">
+ <label > Email</label> <input type="email" name="" id="Emailbox">
+ <label > Mobile NO</label> <input type="number" name="" id="Mobbox">
+ <label > address</label> <input type="text" id="Addbox">
+ <label > <button  class="btn btn-outline-info" id="insertbtn">Insert</button>
+ </div>
+ <div class="payments" id="payid">
+  
+  <label > NAME</label> <input type="text" id="nameb"> 
+   <label > UPI_ID</label><input type="text" id="upiId" placeholder="UPI ID" >
+   <label >MOB.NO</label><input type="number" id="amount" placeholder="Amount" >
+   <label > <button  class="btn btn-outline-info" id="paybox"> Paynow </button>
+    
+
+   </div>
+    
+
+  <div class="image-container">
+    <div class="text-overlay">
+      <p>when you feel pain In Future you got benifits</p>
+  </div>
+    <img src="images/img3.jpg" id="imag1" class="centered-image" onclick="changeImage()">
+  </div>
+  
+  </div>
+  <div>
+    <div class="image-container2">
+      <div class="image-with-content2">
+          <img src="images/imgfirst.jpeg" alt="Image 1">
+          <div class="content2">Quality Equipment</div>
+      </div>
+      <div class="image-with-content2">
+          <img src="images/imgsecond.jpg" alt="Image 2">
+          <div class="content2">Persnal Trainer</div>
+      </div>
+      <div class="image-with-content2">
+          <img src="images/imgfirst.jpeg" alt="Image 3">
+          <div class="content2">Cardio Program</div>
+      </div>
+  </div>
+  
+
+<div>    <ul class="list">
+  <li class="list-item">
+    <i class="fa-solid fa-dumbbell fa-beat" style="color: #e62897;"></i>
+      <h3 class="heading">Quality Equipment</h3>
+      <p class="content3">Great quality, class-apart equipment’s lets you workout whatever you prefer, Right from
+          weight training, kettlebell training, trx, kickboxing to Olympic standard weightlifting. You name it and
+          we have it.</p>
+  </li>
+  <li class="list-item">
+    <i class="fa-solid fa-pen-to-square fa-beat-fade" style="color: #cd3270;"></i>
+      <h3 class="heading">Health Nutration Plan</h3>
+      <p class="content3">Never miss a healthy diet!
+          So know your calorie count or have your pre-workout coffee shot in our in-house café- CRAVE HEALTHY CAFE
+          We offer you protein shakes, healthy smoothies, meals and a lot more.</p>
+  </li>
+  <li class="list-item">   
+    <i class="fa-solid fa-shower fa-spin" style="color: #d123ac;"></i>
+      <h3 class="heading">Facilitys</h3>
+      <p class="content3">Anytime Steam and shower services for all.</p>
+  </li>
+  <li class="list-item">
+    <div class="ak47">
+
+      <i class="fa-solid fa-heart-pulse fa-beat" style="color: #f2216a;"></i>
+    </div>
+      <h3 class="heading">Unique to Your Needs</h3>
+      <p class="content3">Every person is different and the fitness goals vary too. Some one needs to maintain,
+          some athlete needs muscle training and someone has a target weight to achieve. We cater to different
+          requirements differently.</p>
+  </li>
+</ul></div>
+
+<div class="container4">
+  <div class="box4">
+    <img id="shiva" src="images/welcomeimg.jpg" alt="Image">
+  </div>
+  <div class="box4">
+          <span class="heading-text3">
+               <div>
+                   <span class="word3">Welcome To</span>
+               </div>
+              <span class="word4">Shivas Gym</span>
+              <div>
+                  <span> <img id="logoid" src="images/12logo.png" alt="" srcset=""></span>
+              </div>
+          </span>  
+    <p>Located in Flower City at Nagar palika , Shyam Kripa market Phalodi, SG focuses on your fitness needs. With class apart, dynamic range of equipment’s and best trainers we assist you to achieve your fitness goals.
+      We focus on individual requirements and plan trainings accordingly. Our certified trainers help you achieve fitness goals considering your lifestyle, body type and ailments.
+      We are better experienced than spoken about!</p>
+      <p><i class="fa-solid fa-dumbbell fa-2xl" style="color: #46dd80;"></i> <h3>Persnal Trainer</h3> </p>
+  </div>
+</div>
+
+<div id="pricehead" >
+  <span class="heading-text4">
+          <span class="wordx">Price</span>
+     <span class="wordy">Plan</span>
+ </span>  
+</div>
+<div class="list-containery">
+  <div class="list-itemx" id="price1">
+      <h2>Monthly</h2>
+      <p>Rs 600</p>
+  </div>
+  <div class="list-itemx" id="price2">
+      <h2>Quarterly</h2>
+      <p>Rs 1,600 </p>
+  </div>
+  <div class="list-itemx" id="price3">
+      <h2>Half Yearly</h2>
+      <p>Rs 3,200</p>
+  </div>
+  <div class="list-itemx" id="price4">
+      <h2>Yearly</h2>
+      <p>Rs 6,500</p>
+  </div>
+</div>
+
+<div class="insta">
+  <span>Follw Us On</span>
+  <span><a id="instaid" href="instagram.conm">Instagram</a></span>
+</div>
+<div class="sucessbox">
+  
+
+</div>
+
+  <footer class="footer">
+    <div class="contact-info">
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="fa-brands fa-facebook" style="color: #3f45f8;"></i>
+            
+        </a>
+    </div>
+        <p>Email: <a href="Mail_to:your@email.com">shivgym@email.com</a></p>
+        <p>Mobile: <a href="tel:+1234567890">7221997122</a></p>
+       
+          <div class="social-media">
+            <a href="https://www.instagram.com" target="_blank">
+         
+              <i class="fa-brands fa-square-instagram" style="color: #bd288e;"></i>
+          </a>
+          </div>
+    </div>
+    </footer>
+  </div>
+
+  <script src="script2.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCFXOG-5FJPd3CV76vkq3jcQ1zldcqvl2Y",
+    authDomain: "gympro-8c35b.firebaseapp.com",
+    databaseURL: "https://gympro-8c35b-default-rtdb.firebaseio.com",
+    projectId: "gympro-8c35b",
+    storageBucket: "gympro-8c35b.appspot.com",
+    messagingSenderId: "958826606527",
+    appId: "1:958826606527:web:ddb1218c4fcd0d4f323b0a"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+    import {getDatabase ,get , ref ,update,set,remove,child}
+    from  "https://www.gstatic.com/firebasejs/10.5.2/firebase-database.js";
+
+    const db= getDatabase();
+
+    // ref variable
+    var namebox =document.getElementById("Namebox");
+    var agebox =document.getElementById("Agebox");
+    var emailbox=document.getElementById("Emailbox");
+    var mobbox =document.getElementById("Mobbox");
+    var genbox =document.getElementById("Gen-box");
+    var address =document.getElementById("Addbox");
+    var insbtn=document.getElementById("insertbtn");
+
+    //for payment
+    
+    var namepay=document.getElementById("nameb");
+    var userupi=document.getElementById("upiId");
+    var payamaunt=document.getElementById("amount");
+    var payboxbtn=document.getElementById("paybox");
+    //insertpayment data 
+   
+    // insert data
+    function inserpttData(){
+      set(ref(db, "The Body Builder/" + namebox.value),{
+           Nameofbuilder : namebox.value,
+           gender : genbox.value,
+           Email : emailbox.value,
+           Ageofbuilder : agebox.value,
+           mobileNo : mobbox.value,
+           addressHome : address.value,
+
+      })
+      .then(()=>{
+      alert("data store succesfully now you can payment online");
+      document.getElementById('contactid').style.display='none';
+      document.getElementById('reg-id').style.display='none';
+      document.getElementById('fistview').style.display='none';
+      //  document.getElementById('secondview').style.display='none';
+      document.getElementById('payid').style.display='inline';
+      })
+      .catch((error)=>{
+        alert("❗❗❗❗❗unsuccesfully ❗❗❗❗❗ plz try again,error" + error);
+        document.getElementById('fistview').style.display='inline';
+        
+      });
+    }
+    function insertData(){
+      set(ref(db, "fees acount details/" + namepay.value),{
+           Nameofbuilder : namepay.value,
+           UPI_ID : userupi.value,
+           Paymentpaid : payamaunt.value,
+      }).then(()=>{
+      alert(" payment online details have been saved thank you ");
+      document.getElementById('contactid').style.display='none';
+      document.getElementById('reg-id').style.display='none';
+      document.getElementById('fistview').style.display='inline';
+      document.getElementById('payid').style.display='none';
+      })
+      .catch((error)=>{
+        alert("❗❗❗❗❗unsuccesfully ❗❗❗❗❗ plz try again,error" + error);
+       document.getElementById('contactid').style.display='none';
+      document.getElementById('reg-id').style.display='none';
+      document.getElementById('fistview').style.display='inline';
+       
+      document.getElementById('payid').style.display='none';
+        
+      });
+    }
+    insbtn.addEventListener('click',inserpttData);
+    payboxbtn.addEventListener('click',insertData);
+    const database = firebase.database();
+  </script>
+  <!-- config end -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/ee10d89ddd.js" crossorigin="anonymous"></script>
+    </body>
+</html>

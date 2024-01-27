@@ -1,0 +1,480 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    
+}
+ul li #logosg{
+    width: 51px;
+    height: 43px;
+}
+ #sivag{
+    color: black;
+}
+#contactid{
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+#fistview{
+    display: inline;
+}
+#payid{
+    display: none;
+}
+ #logo{
+    color: black;
+}
+#reg-id{
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+ .regcontainer{
+    /* margin: auto; */
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 50%; */
+}
+
+.regcontainer label {
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 80px;
+margin-left: 50px;
+
+
+  
+  
+} 
+/* seoncd section css
+ */
+.text-gray {
+    font-size: 25px;
+    color: rgb(178, 230, 236);
+
+}
+.payments{
+    justify-content: center;
+    text-align: center;
+/* 
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    /* margin: auto; */
+  /* margin-left: 50px; */ 
+}
+.payments label{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    /* margin: auto; */
+  margin-left: 50px;
+}
+
+.tittle {
+    display: flex;
+    color: aqua;
+    position: relative;
+    font-size: 18px;
+    top: 97px;
+    width: 217px;
+}
+.desc p{
+    display: flex;
+    top: 800vh;
+    font-style: inherit;
+font-size: 18px;
+padding-top: 94px;
+width: 120px;
+}
+.img-top {
+width: 30px;
+height: 30px;
+margin-top: -35px;
+}
+.img-top1 {
+width: 43px;
+height: 64px;
+margin-top: -35px;
+}
+.img-top2 {
+width: 52px;
+height: 64px;
+margin-top: -35px;
+}
+
+.footer {
+    
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 20px 0;
+    position: absolute;
+            padding-bottom: 0;
+            width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info p {
+    margin: 10px;
+}
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* image portion */
+
+.image-container {
+    text-align: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.centered-image {
+    width: 100%;
+    /* max-width: 600px; Set your desired max-width */
+    display: block;
+    margin: 0 auto;
+    max-height: 600px;
+    cursor: pointer;
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 76%;
+    text-transform: uppercase;
+    /* white-space: nowrap; */
+    transform: translate(-50%, -50%);
+    /* background-color: #efe7e4; */
+    max-width: 80%; /* Set a maximum width for the text overlay */
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text-overlay p {
+    margin: 0;
+    font-style: italic;
+    color:rgb(60, 146, 146);
+    font-size:2vw; 
+    max-width:100%;
+}
+
+/* imagepart2content */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: space-between;
+    width : 80%;
+    max-width: 90%;
+   
+    padding-left: 20%;
+
+}
+
+.image-with-content2 {
+    position: relative;
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed for spacing */
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing */
+    max-width: 100%;
+}
+
+.image-with-content2 img {
+    max-width: 100%;
+}
+
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.7); Background color for content */
+    color: #f89f9f; /* Text color for content */
+    padding: 10px; /* Adjust the padding as needed for content */
+}
+
+@media (max-width: 768px) {
+    .image-with-content2 {
+        width: calc(50% - 10px); /* Two images with content per row on screens <= 768px */
+    }
+    .content2{
+
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-with-content2 {
+        width: 100%; /* One image with content per row on screens <= 480px */
+    }
+    .content2{
+        font-size: 12px; }
+   
+}
+
+/* features part  */
+
+.heading-container {
+    text-align: center;
+}
+
+.heading-text {
+    font-size: 50px;
+        display: inline;
+}
+
+.word1 {
+    color: #FF5733; /* Color for "Our" */
+}
+
+.word2 {
+    color: #3399FF; /* Color for "Features" */
+}
+
+@media (max-width: 768px) {
+    /* Adjust the font size for smaller screens if needed */
+    .heading-text {
+        font-size: 40px;
+    }
+}
+
+/* part 3 box content */
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    flex: 1;
+    margin: 10px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+.icon {
+    font-size: 100px;
+}
+.heading {
+    font-weight: bold;
+    font-style: italic;
+    color: #00ffa0;
+}
+
+.content3{
+    font-style: italic;
+    margin-top: 10px;
+    overflow: hidden; /* Hide content that overflows the box */
+      text-size-adjust: 3px;
+    text-overflow: ellipsis;
+}
+
+/* welcome part */
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    background-image: url(images/imgback.jpg);
+  }
+
+  .box4 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+
+    
+  }
+
+  .box4 #shiva {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  #logoid{
+      max-width: 30%;
+      max-height: 30%;
+      opacity: 1.5; /* Adjust the opacity level (0.0 - 1.0) as needed */
+  background-color: transparent; /* Set the background color to transparent */
+  }
+
+  .heading-text3{
+  font-size: 50px;
+      display: inline;
+}
+.word3{
+  color: #FF5733; /* Color for "Our" */
+  font-size: 80px;
+}
+
+.word4{
+  color: #3399FF; /* Color for "Features" */
+}
+
+/* priceplan list css */
+.list-containery {
+    display: flex;
+    justify-content: center;
+    font-size: 1.0rem;
+}
+
+.list-itemx {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ddd;
+    text-align: center;
+    margin: 10px;
+    background-color: #FF5733;
+}
+
+#pricehead{
+   text-align: center;
+}
+.list-containery h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.list-containery p{
+font-size: 2rem;
+border: 2px solid;
+margin: 2px -21px;
+padding: 6px 3px;
+background-color: #3399FF;
+
+}
+.heading-text4{
+font-size: 50px;
+display: inline
+}
+.wordx{
+color: #FF5733; /* Color for "Our" */
+/* font-size: 80px; */
+}
+
+.wordy{
+color: #3399FF; /* Color for "Features" */
+}
+#price2{
+background-color: #c91c23 ;
+}
+#price2 p{
+background-color: #6b2628 ;
+}
+#price4{
+background-color: #c91c23 ;
+}
+#price4 p{
+background-color: #6b2628 ;
+}
+
+/* Responsive text for smaller screens */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    .heading-text4 {
+        font-size: 5px;
+      }
+      .list-containery p {
+          font-size: 14px;
+        }
+        .list-containery h2 {
+            font-size: 14px;
+        }
+        .list-containery {
+            flex-direction: column;
+            justify-content: center;
+            font-size: 1.0rem;
+        }
+  }
+  
+  /* Further adjustments for even smaller screens */
+  @media (max-width: 480px) {
+    .heading-text4 {
+      font-size: 5px;
+      
+
+    }
+    body {
+        font-size: 12px;
+      }
+      .list-containery p{
+          font-size: 12px;
+        }
+        .list-containery h2 {
+            font-size: 12px;
+        }
+        .list-containery {
+            flex-direction: column;
+            justify-content: center;
+            font-size: 1.0rem;
+        }
+  }
+
+ 
+  .insta{
+    max-width: 100%;
+    max-height: 400px;
+    font-size: 80px;
+    display: flex;
+justify-content: center;
+background-color: #6b2628;
+
+  }
+  #instaid{
+    text-decoration: none;
+    color: #f89f9f;
+  }
+  @media (max-width: 768px) {
+     .insta{
+        font-size: 40px;
+     }
+  }
+  @media (max-width: 480px) {
+    .insta{
+       font-size: 20px;
+    }
+ }
+ 
+  
+
+    
